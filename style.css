@@ -1,34 +1,49 @@
-*{
-    color: white;}
-nav {
+body{
     background-color:#131313 ;
-    width: 100%;
-
+    color: white;
+    font-family: sans-serif;
+}
+nav{
+    text-align: le;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 30px;
+}
+.sec1{
+    background-color: #5888F1;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0%;
 }
 .vector{
-    background-position: left;
-    width: 10%;
+    text-align: center;
 }
-.head{
-    font-family: Kdam Thmor Pro
-    , Geneva, Tahoma, sans-serif;
-    font-size: 70px;
+#c1 , #c2{
+    text-align: center;
 }
-.head2{
-    font-family: Kdam Thmor Pro
-    , Geneva, Tahoma, sans-serif;
-    font-size: 40px;}
-main{
-    background-color: #131313;
+#c2{
+    text-transform: uppercase;
 }
-.left{
+.img1{
+    text-align: center;
+}
+.ctext{
     text-align: left;
 }
 footer{
     background-color: #1F1F1F;
 }
-li{
-    color: white;
-    list-style-type: none;
-    font-weight: bold;
+h1{
+    font-weight: bolder;
+    font-size: 300%;
+}
+p{
+    font-size: 200%;
+    font-weight: 90;
+}
+.mid h1{
+    text-transform: uppercase;
 }
